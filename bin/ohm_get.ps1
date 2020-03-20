@@ -2,7 +2,7 @@
 # All changes after 1:22AM 09-03-2018 AWST should be listed via GitHub @ https://github.com/clontarfx/zabbix-template-openhardwaremonitor
 
 param([string]$ident)
-$strFileName=".\sensors.tmp"
+$strFileName=".\sensors.dat"
 If (Test-Path $strFileName){
 	del $strFileName
 }
